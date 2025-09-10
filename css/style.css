@@ -1,9 +1,4 @@
-/*
-* Template Name: UntreeStore
-* Template Author: Untree.co
-* Author URI: https://untree.co/
-* License: https://creativecommons.org/licenses/by/3.0/
-*/
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 body {
   overflow-x: hidden;
@@ -38,18 +33,28 @@ a {
   z-index: 100;
   padding-top: 20px;
   padding-bottom: 20px; }
+
   .custom-navbar .navbar-brand {
     font-size: 32px;
     font-weight: 600; }
+
     .custom-navbar .navbar-brand > span {
       opacity: .4; }
+
   .custom-navbar .navbar-toggler {
     border-color: transparent; }
+
     .custom-navbar .navbar-toggler:active, .custom-navbar .navbar-toggler:focus {
       -webkit-box-shadow: none;
       box-shadow: none;
       outline: none; }
+
+     
+
   @media (min-width: 992px) {
+    body{
+      //background-color: #6a6a6a;
+    }
     .custom-navbar .custom-navbar-nav li {
       margin-left: 15px;
       margin-right: 15px; } }
@@ -63,7 +68,17 @@ a {
     -o-transition: .3s all ease;
     transition: .3s all ease;
     position: relative; }
+
+
+
     @media (min-width: 768px) {
+      body{
+        //background-color: rgb(141, 220, 220);
+      }
+
+  
+     
+
       .custom-navbar .custom-navbar-nav li a:before {
         content: "";
         position: absolute;
@@ -92,7 +107,11 @@ a {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row; }
+
+
+
     @media (min-width: 768px) {
+      
       .custom-navbar .custom-navbar-cta {
         margin-left: 40px !important; } }
     .custom-navbar .custom-navbar-cta li {
@@ -759,4 +778,289 @@ textarea {
     background: rgba(59, 93, 80, 0.2); }
 
 
-    intro-excerpt
+
+
+
+          /*media queries*/
+
+    @media (max-width:1200px) {
+         
+      body{
+       //background-color: coral;
+      }
+
+       .custom-navbar {
+  background: transparent !important;
+  height: 90px;
+ backdrop-filter: blur(0px);
+  position: relative;
+  z-index: 100;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: -10px;
+  font-size: 12px;
+ }
+
+
+
+
+
+   .edit-by-me{
+      background: transparent !important;
+      backdrop-filter: blur(9px);
+      text-align: center;
+      margin: auto;
+     
+    }
+
+    .intro-excerpt{
+      //background-color: #f9bf29;
+      margin-top: -120px;
+      margin-left: -30px;
+      padding-top: 0px;
+    }
+
+    .logo{
+      //background-color: yellow;
+      padding-top: 0px;
+      
+      height: auto;
+    }
+
+    .navbar-brand{
+     // background-color: #03ff9e;
+      width: 20%;
+      padding-top: 0px;
+      height: auto;
+      margin-top: 0px;
+    }
+       
+   .hero{
+    width: 100%;
+    height: 300px;
+   }
+    
+    .main-img{
+      width: 100%;
+      height: 500px;
+      
+    }
+
+       
+    }
+
+
+
+
+    @media (max-width:991px) {
+
+      body{
+        //background-color: pink;
+      }
+
+      .custom-navbar {
+  background: transparent !important;
+  height: 90px;
+ backdrop-filter: blur(0px);
+  position: relative;
+  z-index: 100;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: -10px;
+ }
+
+
+
+
+
+   .edit-by-me{
+      background: transparent !important;
+      backdrop-filter: blur(9px);
+      text-align: center;
+      margin: auto;
+    }
+
+    .intro-excerpt{
+      //background-color: #f9bf29;
+      margin-top: -220px;
+      margin-left: -30px;
+      padding-top: 0px;
+    }
+
+    .logo{
+      //background-color: yellow;
+      padding-top: 0px;
+      
+      height: auto;
+    }
+
+    .navbar-brand{
+     // background-color: #03ff9e;
+      width: 20%;
+      padding-top: 0px;
+      height: auto;
+      margin-top: -8px;
+    }
+       
+   .hero{
+    width: 100%;
+    height: 300px;
+   }
+    
+    .main-img{
+      width: 100%;
+      height: 500px;
+      
+    }
+
+       
+    }
+
+
+
+    @media (max-width:768px) {
+
+      body{
+        //background-color: mediumblue;
+      }
+
+
+  .custom-navbar {
+  background: transparent !important;
+  height: 90px;
+ backdrop-filter: blur(0px);
+  position: relative;
+  z-index: 100;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: -20px;
+ }
+
+
+
+
+
+   .edit-by-me{
+      background: transparent !important;
+      backdrop-filter: blur(9px);
+      text-align: center;
+      margin: auto;
+    }
+
+    .intro-excerpt{
+      //background-color: #f9bf29;
+      margin-top: -390px;
+      margin-left: -30px;
+      padding-top: 0px;
+    }
+
+    .logo{
+      //background-color: yellow;
+      padding-top: 0px;
+      
+      height: auto;
+    }
+
+    .navbar-brand{
+     // background-color: #03ff9e;
+      width: 20%;
+      padding-top: 0px;
+      height: auto;
+      margin-top: -25px;
+    }
+       
+   .hero{
+    width: 100%;
+    height: 300px;
+   }
+    
+    .main-img{
+      width: 100%;
+      height: 400px;
+      
+    }
+
+
+  }
+
+
+
+
+    @media (max-width:600px) {
+
+      body{
+        //background-color: cyan;
+      }
+  .custom-navbar {
+  background: transparent !important;
+  height: 90px;
+ //backdrop-filter: blur(9px);
+  position: relative;
+  z-index: 100;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: -20px;
+ }
+
+  .custom-navbar .navbar-brand {
+    font-size: 32px;
+    font-weight: 600; }
+
+    .custom-navbar .navbar-brand > span {
+      opacity: .4; }
+
+  .custom-navbar .navbar-toggler {
+    border-color: transparent;}
+
+    .custom-navbar .navbar-toggler:active, .custom-navbar .navbar-toggler:focus {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      outline: none; }
+
+  
+    
+
+    .edit-by-me{
+      
+      backdrop-filter: blur(9px);
+      text-align: center;
+      margin: auto;
+    }
+
+    .intro-excerpt{
+      //background-color: #f9bf29;
+      margin-top: -440px;
+      margin-left: -30px;
+      padding-top: 0px;
+    }
+
+    .logo{
+      //background-color: yellow;
+      padding-top: 0px;
+      
+      height: auto;
+    }
+
+    .navbar-brand{
+      //background-color: #03ff9e;
+      width: 20%;
+      padding-top: 0px;
+      height: auto;
+      margin-top: -25px;
+    }
+       
+   .hero{
+    width: 100%;
+    height: 300px;
+   }
+    
+    .main-img{
+      width: 100%;
+      height: 400px;
+      
+    }
+
+      
+   
+
+    }
